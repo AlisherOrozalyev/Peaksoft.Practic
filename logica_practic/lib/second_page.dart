@@ -16,13 +16,13 @@ class _SecondPageState extends State<SecondPage> {
     return Scaffold(
       appBar: AppBar(title: const Text('SecondPage'),  
     ),
-    body: const Center(
+    body: Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-        Text('usernames'),
-        Text('userprofession'),
-        Text('useremail')
+        Text(widget.usernames),
+        Text(widget.userprofession),
+        Text(widget.useremail)
       ],
       ),
     ),
